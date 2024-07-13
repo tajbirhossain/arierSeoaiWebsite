@@ -355,3 +355,93 @@ header .headerCta button {
     height: 100%;
     object-fit: contain;
 }
+
+
+
+
+
+
+
+
+.yourTool {
+    padding: 100px 0;
+}
+.yourToolHeading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.yourToolHeading h2 {
+    font-family: "Sharp Grotesk SmBold 20 Regular";
+    font-size: 55px;
+    font-weight: 600;
+    color: #184463;
+    margin-bottom: 6px;
+}
+
+.yourToolHeading h2 span {
+    font-family: "Sharp Grotesk SmBold 20 Regular";
+    color: #FF7919;
+}
+
+
+.yourToolHeading p {
+    width: 560px;
+    font-size: 16px;
+    color: #09090B;
+}
+
+
+
+
+
+.yourToolContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.singleYourTool {
+    width: calc(25% - 15px);
+    height: 266px;
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 42px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.singleYourTool h3 {
+    font-size: 24px;
+    color: #184463;
+}
+
+
+
+
+.yourTool button {
+    width: 139px;
+    height: 56px;
+    font-size: 16px;
+    background-color: #184463;
+    color: #FAFAFA;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.yourTool2 {
+    padding-top: 0;
+}

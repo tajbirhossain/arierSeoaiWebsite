@@ -232,6 +232,7 @@ header .headerCta button {
 .movingNews .moveNewsText p {
     width: 1437px;
     font-size: 28px;
+    font-weight: 600;
     color: #FAFAFA;
 }
 
@@ -256,4 +257,101 @@ header .headerCta button {
     border-radius: 50%;
     margin-left: 15px;
     /* margin: 0 5px; */
+}
+
+
+
+
+
+
+
+
+.maxWebsite {
+    padding: 115px 0;
+    background-color: #BADEFF;
+    position: relative;
+    overflow: hidden;
+}
+
+.maxWebsite::before {
+    width: 380px;
+    height: 380px;
+    border: 120px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    top: 9%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+}
+
+.maxWebsite::after {
+    width: 380px;
+    height: 380px;
+    border: 120px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    bottom: -19%;
+    right: -8%;
+    /* transform: translate(-50%, -50%); */
+}
+
+
+.maxWebsite .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.maxWebLeft {
+    width: 46%;
+}
+.maxWebLeft h2 {
+    font-size: 56px;
+    color: #184463;
+    margin-bottom: 20px;
+}
+
+.maxWebLeft h2 span {
+    font-family: "Sharp Grotesk SmBold 20 Regular";
+    font-weight: 800;
+}
+
+
+.maxWebLeft p {
+    font-size: 16px;
+    color: #09090B;
+    margin-bottom: 25px;
+}
+
+
+
+.maxWebLeft button {
+    width: 157px;
+    height: 56px;
+    border-radius: 20px;
+    background-color: #184463;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+.maxWebRight {
+    width: 72%;
+    margin-right: -23%;
+}
+
+.maxWebRight img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }

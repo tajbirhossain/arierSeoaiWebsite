@@ -1,0 +1,176 @@
+@import url(https://db.onlinewebfonts.com/c/f4a88c23d1f27870fb1e458ace76a752?family=Sharp+Grotesk+Book+20+Regular);
+@import url(https://db.onlinewebfonts.com/c/ff43ca80668e47a1b1208ba9aed65ad2?family=Sharp+Grotesk+Medium+20+Regular);
+@import url(https://db.onlinewebfonts.com/c/629ed6829f706958b9bdf4f6300dfca0?family=Sharp+Grotesk+SmBold+20+Regular);
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sharp Grotesk Book 20 Regular";
+    /* font-family: "Sharp Grotesk Medium 20 Regular"; */
+    /* font-family: "Sharp Grotesk SmBold 20 Regular"; */
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+.container {
+    width: 100%;
+    max-width: 1310px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+body {
+    background-color: #FFF3E9;
+}
+
+
+
+
+header {
+    padding: 32px 0;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container ul {
+    display: flex;
+    align-items: center;
+}
+
+header .container ul li {
+    margin: 0 18px;
+    color: #09090B;
+}
+
+
+header .headerCta {
+    display: flex;
+    align-items: center;
+}
+
+header .headerCta a {
+    font-family: "Sharp Grotesk Medium 20 Regular";
+    color: #1C1917;
+}
+
+
+header .headerCta button {
+    width: 116px;
+    height: 56px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #184463;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-family: "Sharp Grotesk Medium 20 Regular";
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.banner {
+    padding: 100px 0;
+    text-align: center;
+}
+
+
+.banner h3 {
+    font-size: 16px;
+    display: inline-block;
+    padding: 13px 20px;
+    background-color: #FF7919;
+    color: #FAFAFA;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+
+
+.banner h1 {
+    font-size: 66px;
+    color: #184463;
+    margin-bottom: 65px;
+    /* font-family: "Sharp Grotesk Medium 20 Regular"; */
+}
+
+.banner h1 span {
+    font-family: "Sharp Grotesk SmBold 20 Regular";
+}
+
+
+.banner form {
+    width: 714px;
+    height: 92px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.banner form input {
+    width: calc(100% - 142px - 13px);
+    height: 60px;
+    border-radius: 16px;
+    font-size: 16px;
+    padding: 5px 23px;
+    padding-right: 15px;
+    border: none;
+    background-color: #FFF3E9;
+}
+
+.banner form input::placeholder {
+    font-size: 16px;
+    color: #09090B;
+}
+
+.banner form button {
+    width: 142px;
+    height: 60px;
+    font-size: 16px;
+    color: #FAFAFA;
+    background-color: #184463;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

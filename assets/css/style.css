@@ -365,6 +365,11 @@ header .headerCta button {
 
 .yourTool {
     padding: 100px 0;
+    position: relative;
+}
+.yourTool .container {
+    position: relative;
+    z-index: 10;
 }
 .yourToolHeading {
     text-align: center;
@@ -438,6 +443,27 @@ header .headerCta button {
 }
 
 
+
+
+.yourToolFloating {
+    position: absolute;
+}
+
+.yourToolFloating1 {
+    top: 167px;
+    left: 0;
+}
+
+.yourToolFloating2 {
+    top: 46px;
+    right: 12%;
+    rotate: 20deg;
+}
+
+.yourToolFloating3 {
+    right: 0;
+    top: -100px;
+}
 
 
 

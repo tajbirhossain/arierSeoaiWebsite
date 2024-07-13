@@ -107,7 +107,9 @@ header .headerCta button {
 
 .banner {
     padding: 100px 0;
+    padding-bottom: 220px;
     text-align: center;
+    position: relative;
 }
 
 
@@ -173,4 +175,35 @@ header .headerCta button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+
+
+
+.bannerFloat {
+    position: absolute;
+}
+
+
+.bannerFloat1 {
+    left: 0;
+    top: -30px;
+}
+
+.bannerFloat2 {
+    left: 16%;
+    bottom: 110px;
+    transform: translateX(-50%);
+}
+
+.bannerFloat3 {
+    bottom: 280px;
+    right: 8%;
+    transform: translateX(-50%);
+}
+
+.bannerFloat4 {
+    bottom: -45px;
+    right: 0;
 }

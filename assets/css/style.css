@@ -139,6 +139,7 @@ header .headerCta button {
 
 .banner form {
     width: 714px;
+    max-width: 90%;
     height: 92px;
     background-color: #fff;
     border-radius: 20px;
@@ -206,4 +207,53 @@ header .headerCta button {
 .bannerFloat4 {
     bottom: -45px;
     right: 0;
+}
+
+
+
+
+
+
+
+.movingNews {
+    width: 100%;
+    height: 110px;
+    background-color: #184463;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.movingNews .moveNewsText {
+    width: 1487px;
+    display: flex;
+    align-items: center;
+}
+.movingNews .moveNewsText p {
+    width: 1437px;
+    font-size: 28px;
+    color: #FAFAFA;
+}
+
+/* .movingNews h2 span {
+    width: calc(100% - 10px);
+    display: block;
+} */
+.movingNews .moveNewsText .moveFirstDot {
+    width: 10px !important;
+    height: 10px !important;
+    display: block;
+    background-color: #FAFAFA;
+    border-radius: 50%;
+    margin-right: 15px;
+    /* margin: 0 5px; */
+}
+.movingNews .moveNewsText .moveLastDot {
+    width: 10px !important;
+    height: 10px !important;
+    display: block;
+    background-color: #FAFAFA;
+    border-radius: 50%;
+    margin-left: 15px;
+    /* margin: 0 5px; */
 }

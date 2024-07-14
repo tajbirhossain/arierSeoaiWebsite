@@ -53,6 +53,7 @@ body {
 header {
     padding: 32px 0;
 }
+
 header .container {
     display: flex;
     align-items: center;
@@ -224,11 +225,13 @@ header .headerCta button {
     position: relative;
     z-index: 10;
 }
+
 .movingNews .moveNewsText {
     width: 1487px;
     display: flex;
     align-items: center;
 }
+
 .movingNews .moveNewsText p {
     width: 1437px;
     font-size: 28px;
@@ -249,6 +252,7 @@ header .headerCta button {
     margin-right: 15px;
     /* margin: 0 5px; */
 }
+
 .movingNews .moveNewsText .moveLastDot {
     width: 10px !important;
     height: 10px !important;
@@ -311,6 +315,7 @@ header .headerCta button {
 .maxWebLeft {
     width: 46%;
 }
+
 .maxWebLeft h2 {
     font-size: 56px;
     color: #184463;
@@ -367,10 +372,12 @@ header .headerCta button {
     padding: 100px 0;
     position: relative;
 }
+
 .yourTool .container {
     position: relative;
     z-index: 10;
 }
+
 .yourToolHeading {
     text-align: center;
     display: flex;
@@ -378,6 +385,7 @@ header .headerCta button {
     align-items: center;
     margin-bottom: 40px;
 }
+
 .yourToolHeading h2 {
     font-family: "Sharp Grotesk SmBold 20 Regular";
     font-size: 55px;
@@ -470,4 +478,445 @@ header .headerCta button {
 
 .yourTool2 {
     padding-top: 0;
+}
+
+
+
+
+
+
+
+
+
+.optimizeSite {
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.optimizeHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.optimizeHeading span {
+    padding: 13px 18px;
+    background-color: #FF7919;
+    border-radius: 18px;
+    color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.optimizeHeading h2 {
+    font-family: "Sharp Grotesk SmBold 20 Regular";
+    font-size: 55px;
+    color: #184463;
+    font-weight: 800;
+}
+
+
+
+
+.optimizeContent {
+    width: 100%;
+    padding: 40px 50px;
+    background-color: #184463;
+    border-radius: 30px;
+}
+
+
+.optConHeading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 28px;
+    margin-bottom: 45px;
+    border-bottom: 1px solid #ffffff1c;
+}
+
+.optConHeading li {
+    width: calc(100% / 3 - 20px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.optConHeading li.active::after {
+    width: 100%;
+    height: 2px;
+    background-color: #FF7919;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -29px;
+}
+
+.optConHeading li span {
+    width: 56px;
+    height: 56px;
+    background-color: #fff;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Sharp Grotesk SmBold 20 Regular";
+    color: #184463;
+    font-size: 20px;
+}
+
+.optConHeading li.active span {
+    background-color: #FF7919;
+    color: #fff;
+}
+
+.optConHeading li .optHeadingText {
+    width: calc(100% - 76px);
+    color: #fff;
+}
+
+.optHeadingText h3 {
+    font-family: "Sharp Grotesk SmBold 20 Regular";
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.optHeadingText p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+.optimizeSlider {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.optSliderLeft {
+    width: calc(46% - 33px);
+}
+
+.optSliderLeft span {
+    width: fit-content;
+    font-size: 16px;
+    color: #FAFAFA;
+    padding: 13px 18px;
+    background-color: #FF7919;
+    display: block;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+
+
+.optSliderLeft h3 {
+    font-family: "Sharp Grotesk SmBold 20 Regular";
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.optSliderLeft p {
+    color: #fff;
+}
+
+
+
+
+
+
+.optSliderRight {
+    width: 54%;
+}
+
+.optSliderRight img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.latestBlog {
+    padding-bottom: 100px;
+}
+
+.latestBlogHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.latestBlogHeading span {
+    padding: 13px 18px;
+    background-color: #FF7919;
+    border-radius: 18px;
+    color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.latestBlogHeading h2 {
+    font-family: "Sharp Grotesk SmBold 20 Regular";
+    font-size: 55px;
+    color: #184463;
+    font-weight: 800;
+}
+
+
+.latBlogWrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.singleLatBlog {
+    width: calc(100% / 3 - 13px);
+    padding: 16px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+
+.latBlogImg {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.latBlogImg img {
+    width: 100%;
+    height: 255px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+.latBlogImg span {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(9, 9, 11, 0.2);
+    backdrop-filter: blur(17px);
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.latBlogImg span img {
+    width: auto;
+    height: auto;
+    border-radius: unset;
+}
+
+
+.latBlogText h3 {
+    font-family: "Sharp Grotesk SmBold 20 Regular";
+    font-size: 20px;
+    color: #184463;
+    margin-bottom: 12px;
+}
+
+.latBlogText p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 16px;
+    color: #09090B;
+    margin-bottom: 20px;
+}
+
+
+.latBlogDate {
+    display: flex;
+    align-items: center;
+}
+
+.latBlogDate img {
+    margin-right: 9px;
+}
+
+.latBlogDate span {
+    color: #09090B;
+}
+
+
+
+
+
+
+
+
+
+.testimonial {
+    padding-bottom: 100px;
+}
+
+.testimHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimHeading span {
+    padding: 13px 18px;
+    background-color: #FF7919;
+    border-radius: 18px;
+    color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.testimHeading h2 {
+    max-width: 627px;
+    font-family: "Sharp Grotesk SmBold 20 Regular";
+    font-size: 55px;
+    color: #184463;
+    font-weight: 800;
+}
+
+
+
+.compReview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.singleCompRev {
+    width: calc(100% / 3 - 13px);
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.singleCompRev img {
+    max-width: 100%;
+}
+.singleCompRev p {
+    margin: 16px 0;
+}
+
+
+
+
+.personReview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.singlePerReview {
+    width: calc(100% / 3 - 13px);
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.singlePerReview img {
+    margin-bottom: 15px;
+}
+
+.singlePerReview p {
+    color: #09090B;
+    margin-bottom: 27px;
+}
+
+.personRevPro {
+    display: flex;
+    align-items: center;
+}
+
+
+.personRevProImg {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.personRevProImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.personRevProText img {
+    width: 124px;
+    margin-bottom: 4px;
+}
+
+.personRevProText h4 {
+    font-size: 20px;
+    color: #184463;
+    line-height: 25px;
+}
+
+
+
+.viewTestimonialBtn {
+    width: 126px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #184463;
+    color: #fafafa;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    padding-top: 110px;
+    position: relative;
+}
+
+footer .footerBg {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }

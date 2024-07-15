@@ -50,6 +50,21 @@ body {
 
 
 
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0000003a;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 11;
+    transition: .3s;
+}
+
+
 header {
     padding: 32px 0;
 }
@@ -94,6 +109,14 @@ header .headerCta button {
     font-size: 16px;
     font-family: "Sharp Grotesk Medium 20 Regular";
     margin-left: 25px;
+}
+
+.headerCta img {
+    width: 25px;
+    margin-left: 15px;
+    opacity: 0.7;
+    cursor: pointer;
+    display: none;
 }
 
 
@@ -430,7 +453,7 @@ header .headerCta button {
 
 
 .yourToolHeading p {
-    width: 560px;
+    max-width: 560px;
     font-size: 16px;
     color: #09090B;
 }
@@ -959,7 +982,7 @@ header .headerCta button {
     margin-bottom: 20px;
 }
 .singleCompRev img {
-    max-width: 100%;
+    max-width: 70%;
 }
 .singleCompRev p {
     margin: 16px 0;
@@ -990,6 +1013,11 @@ header .headerCta button {
 .singlePerReview p {
     color: #09090B;
     margin-bottom: 27px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
 }
 
 .personRevPro {
@@ -1125,3 +1153,667 @@ footer .container {
     color: #fff;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive starts */
+@media (max-width: 1100px) {
+    header img {
+        width: 100px;
+    }
+    header .container ul li a {
+        font-size: 14px;
+    }
+    header .headerCta a {
+        font-size: 14px;
+    }
+    header .headerCta button {
+        width: 97px;
+        height: 40px;
+        font-size: 14px;
+        border-radius: 12px;
+    }
+
+
+    .banner h3 {
+        font-size: 14px;
+    }
+    .banner h1 {
+        font-size: 50px;
+    }
+
+    .banner form {
+        height: 82px;
+        padding: 10px 16px;
+    }
+    .banner form input {
+        width: calc(100% - 120px - 13px);
+        height: 50px;
+        font-size: 14px;
+    }
+    .banner form input::placeholder {
+        font-size: 14px;
+    }
+
+    .banner form button {
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+
+    .movingNews .moveNewsText {
+        width: 1180px;
+    }
+    .movingNews .moveNewsText p {
+        width: 1135px;
+        font-size: 22px;
+    }
+
+
+    .maxWebLeft h2 {
+        font-size: 42px;
+    }
+    .maxWebLeft p {
+        font-size: 14px;
+    }
+
+    .maxWebLeft button {
+        width: 130px;
+        height: 45px;
+        border-radius: 12px;
+        font-size: 14px;
+    }
+
+
+
+    .yourToolHeading h2 {
+        font-size: 42px;
+    }
+    .yourToolHeading p {
+        font-size: 14px;
+    }
+
+
+    .singleYourTool {
+        height: 235px;
+        padding: 25px 10px;
+    }
+    .singleYourTool img {
+        max-width: 60%;
+    }
+    .singleYourTool h3 {
+        font-size: 20px;
+    }
+
+
+    .yourTool button {
+        width: 120px;
+        height: 45px;
+        border-radius: 12px;
+        font-size: 14px;
+    }
+
+
+    .optimizeHeading span {
+        font-size: 14px;
+    }
+    .optimizeHeading h2 {
+        font-size: 42px;
+    }
+
+    .optConHeading li span {
+        width: 48px;
+        height: 48px;
+        font-size: 18px;
+    }
+    .optConHeading li .optHeadingText {
+        width: calc(100% - 60px);
+    }
+
+    .optHeadingText h3 {
+        font-size: 18px;
+    }
+    .optHeadingText p {
+        font-size: 13px;
+    }
+
+
+    .optSliderLeft span {
+        font-size: 14px;
+    }
+    .optSliderLeft h3 {
+        font-size: 35px;
+    }
+    .optSliderLeft p {
+        font-size: 14px;
+    }
+
+
+    .optimizeSite .swiper-button-next, .optimizeSite .swiper-button-prev {
+        width: 40px;
+        height: 40px;
+    }
+    .optimizeSite .swiper-button-next img, .optimizeSite .swiper-button-prev img {
+        width: 9px;
+    }
+
+
+    .latestBlogHeading span {
+        font-size: 14px;
+    }
+
+    .latestBlogHeading h2 {
+        font-size: 42px;
+    }
+
+
+    .latBlogImg img {
+        height: 210px;
+    }
+
+    .latBlogText h3 {
+        font-size: 18px;
+    }
+    .latBlogText p {
+        font-size: 14px;
+    }
+
+
+    .latBlogDate span {
+        font-size: 14px;
+    }
+
+
+    .latBlogShowMore {
+        width: 115px;
+        height: 45px;
+        border-radius: 12px;
+    }
+
+
+    .testimHeading span {
+        font-size: 14px;
+    }
+
+    .testimHeading h2 {
+        font-size: 42px;
+    }
+
+
+    .singleCompRev p {
+        font-size: 14px;
+    }
+
+
+    .singlePerReview img {
+        width: 50px;
+    }
+    .singlePerReview p {
+        font-size: 14px;
+    }
+
+    .personRevProImg {
+        width: 47px;
+        height: 47px;
+    }
+    .personRevProImg {
+        width: 100%;
+    }
+
+    .personRevProText img {
+        width: 110px;
+    }
+    .personRevProText h4 {
+        font-size: 18px;
+    }
+
+    .viewTestimonialBtn {
+        width: 115px;
+        height: 45px;
+        border-radius: 12px;
+    }
+
+
+    .footerTopItem:first-child img {
+        width: 100px;
+    }
+    .footerTopItem:first-child p {
+        font-size: 14px;
+    }
+    
+    .footerTopItem h3 {
+        font-size: 18px;
+    }
+    .footerTopItem ul li {
+        font-size: 14px;
+    }
+
+
+    .footerBottom p {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 950px) {
+    .bannerFloat1 {
+        width: 150px;
+    }
+    .bannerFloat2 {
+        width: 66px;
+    }
+    .bannerFloat3 {
+        width: 70px;
+    }
+    .bannerFloat4 {
+        width: 100px;
+    }
+
+
+    .movingNews {
+        height: 80px;
+    }
+
+
+    .optFloat {
+        width: 50px;
+        top: 26px;
+        left: -46px;
+    }
+
+
+    .testimFloat2 {
+        width: 55px;
+        right: -40px;
+    }
+
+
+    .yourToolFloating1 {
+        width: 150px;
+    }
+    .yourToolFloating2 {
+        width: 80px;
+    }
+
+
+    .yourToolFloating3 {
+        width: 115px;
+    }
+
+
+    .latBlogFloat {
+        width: 80px;
+    }
+}
+
+
+
+
+
+@media (max-width: 850px) {
+    .maxWebsite::before {
+        width: 230px;
+        height: 230px;
+        border-width: 77px;
+        top: -1%;
+        left: -2%;
+    }
+    .maxWebsite::after {
+        width: 230px;
+        height: 230px;
+        border-width: 77px;
+        bottom: -35%;
+        right: -25%;
+    }
+    .maxWebLeft h2 {
+        font-size: 35px;
+    }
+
+
+    .latBlogImg img {
+        height: 160px;
+    }
+
+
+    .footerTop {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .footerTopItem {
+        width: 24%;
+        margin-right: 40px;
+    }
+    .footerTopItem:first-child {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+    .overlay.active {
+        pointer-events: all;
+        opacity: 1;
+    }
+    header .container ul {
+        width: 250px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -280px;
+        background-color: #fff;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 80px 40px;
+        z-index: 100;
+        transition: .3s;
+    }
+    header .container ul.active {
+        left: 0;
+    }
+    header .container ul li {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    header .headerCta button {
+        margin-left: 15px;
+    }
+    .headerCta img {
+        display: block;
+    }
+
+
+
+
+    .testimFloat2 {
+        right: 10px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 700px) {
+    .banner h1 {
+        font-size: 40px;
+    }
+    .banner h1 img {
+        width: 40px;
+    }
+
+
+    .maxWebLeft h2 {
+        font-size: 28px;
+    }
+
+
+    .yourToolFloating1 {
+        width: 100px;
+        top: 194px;
+    }
+
+    .singleYourTool {
+        height: 175px;
+    }
+    .singleYourTool h3 {
+        font-size: 16px;
+    }
+
+
+
+    .optConHeading {
+        padding-bottom: 0;
+        flex-wrap: wrap;
+        border-bottom: 0;
+    }
+    .optConHeading li {
+        width: 50%;
+        padding-bottom: 28px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #ffffff1c;
+    }
+    .optConHeading li.active::after {
+        bottom: 0;
+    }
+
+
+    .optSliderLeft h3 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .singlePerReview {
+        width: calc(50% - 13px);
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 550px) {
+    .banner {
+        padding: 65px 0;
+    }
+    .banner h1 {
+        font-size: 32px;
+    }    
+
+
+    .bannerFloat1 {
+        width: 100px;
+    }
+    .bannerFloat2 {
+        width: 47px;
+        bottom: 27px;
+    }
+    .bannerFloat3 {
+        width: 48px;
+        top: 50px;
+    }
+
+
+
+    .maxWebsite .swiper-slide {
+        flex-direction: column;
+    }
+    .maxWebLeft {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .maxWebRight {
+        width: 100%;
+        margin-right: 0;
+    }
+
+
+    .swiper-pagination {
+        left: 0 !important;
+        top: unset !important;
+        bottom: 0 !important;
+    }
+
+
+
+    .singleYourTool {
+        width: calc(50% - 10px);
+        margin-bottom: 15px;
+    }
+
+
+
+    .optConHeading {
+        margin-bottom: 20px;
+    }
+
+    .optimizeSlider {
+        flex-direction: column;
+    }
+    .optSliderLeft {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .optSliderRight {
+        width: 100%;
+    }
+
+
+
+    .singleLatBlog {
+        width: calc(50% - 10px);
+        margin-bottom: 15px;
+    }
+
+
+
+
+    .testimFloat1 {
+        width: 100px;
+    }
+
+    .singleCompRev {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .singlePerReview {
+        width: calc(50% - 10px);
+        padding: 15px;
+    }
+
+
+
+    .footerTopItem {
+        width: 37%;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 450px) {
+    .banner h1 {
+        font-size: 28px;
+    }
+
+    .banner form {
+        max-width: 100%;
+        height: 85px;
+        padding: 8px 10px;
+    }
+
+    .banner form input {
+        padding: 5px 10px;
+    }
+
+
+    .yourToolFloating3 {
+        width: 75px;
+    }
+
+
+    .optConHeading li {
+        width: 100%;
+    }
+
+
+    .singleLatBlog {
+        width: 100%;
+    }
+
+
+    .singlePerReview img {
+        width: 33px;
+        margin-bottom: 8px;
+    }
+
+    .personRevProImg {
+        width: 37px;
+        height: 37px;
+    }
+    .personRevProImg img {
+        width: 100%;
+    }
+    .personRevProText img {
+        width: 70px;
+        margin-bottom: 0;
+    }
+    .personRevProText h4 {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+    .banner h1 {
+        font-size: 26px;
+    }
+    .banner h1 img {
+        width: 26px;
+    }
+
+    .banner form input {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .banner form input::placeholder {
+        font-size: 12px;
+    }
+    .banner form button {
+        width: 110px;
+        height: 42px;
+        font-size: 12px;
+        border-radius: 12px;
+    }
+
+
+
+    .singlePerReview {
+        width: 100%;
+    }
+
+
+
+    .footerTopItem {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+/* responsive ends */

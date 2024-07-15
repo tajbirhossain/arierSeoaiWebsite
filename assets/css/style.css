@@ -113,6 +113,11 @@ header .headerCta button {
     position: relative;
 }
 
+.banner .container {
+    position: relative;
+    z-index: 10;
+}
+
 
 .banner h3 {
     font-size: 16px;
@@ -302,13 +307,37 @@ header .headerCta button {
 }
 
 
-.maxWebsite .container {
+.maxWebsite .swiper.mySwiper {
+    overflow: unset !important;
+}
+.maxWebsite .swiper-slide {
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    z-index: 10;
+    /* z-index: 10; */
+    opacity: 0 !important;
 }
+.maxWebsite .swiper-slide.swiper-slide-active {
+    opacity: 1 !important;
+}
+.swiper-pagination {
+    top: 35px !important;
+    left: 7% !important;
+    height: fit-content;
+}
+
+.swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    opacity: 0.5;
+    background-color: #fff;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+
 
 
 
@@ -493,12 +522,23 @@ header .headerCta button {
     position: relative;
 }
 
+
+
 .optimizeHeading {
+    width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
     margin-bottom: 40px;
+    position: relative;
+}
+
+.optFloat {
+    position: absolute;
+    top: 14px;
+    left: -95px;
 }
 
 .optimizeHeading span {
@@ -653,7 +693,16 @@ header .headerCta button {
 
 .latestBlog {
     padding-bottom: 100px;
+    position: relative;
 }
+
+.latBlogFloat {
+    position: absolute;
+    top: -90px;
+    right: 0;
+}
+
+
 
 .latestBlogHeading {
     display: flex;
@@ -763,6 +812,21 @@ header .headerCta button {
 }
 
 
+.latBlogShowMore {
+    width: 126px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #184463;
+    color: #fafafa;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
 
 
 
@@ -772,15 +836,38 @@ header .headerCta button {
 
 .testimonial {
     padding-bottom: 100px;
+    position: relative;
 }
 
+
+.testimFloat {
+    position: absolute;
+}
+
+.testimFloat1 {
+    top: -115px;
+    left: 0;
+}
+
+
 .testimHeading {
+    width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
     margin-bottom: 40px;
+    position: relative;
 }
+
+
+.testimFloat2 {
+    top: -6px;
+    right: -126px;
+    rotate: -85deg;
+}
+
 
 .testimHeading span {
     padding: 13px 18px;
@@ -912,11 +999,81 @@ footer {
     width: 100%;
     padding-top: 110px;
     position: relative;
+    overflow: hidden;
 }
 
 footer .footerBg {
-    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
     position: absolute;
     left: 0;
-    bottom: 0;
+    top: 0;
+}
+
+footer .container {
+    position: relative;
+}
+
+
+
+
+
+.footerTop {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff29;
+}
+
+.footerTopItem {
+    width: 16%;
+    margin-bottom: 30px;
+}
+.footerTopItem:first-child {
+    width: 31%;
+    padding-right: 30px;
+}
+
+.footerTopItem:first-child img {
+    margin-bottom: 20px;
+}
+
+.footerTopItem:first-child p {
+    font-size: 16px;
+    color: #fff;
+}
+
+
+
+
+.footerTopItem h3 {
+    font-family: "Sharp Grotesk Medium 20 Regular";
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footerTopItem ul li {
+    margin-bottom: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.footerTopItem ul li img {
+    margin-right: 8px;
+}
+
+
+
+
+
+.footerBottom {
+    padding: 20px 0;
+}
+.footerBottom p {
+    color: #fff;
+    text-align: center;
 }

@@ -247,22 +247,76 @@
                     </li>
                 </ul>
 
-                <div class="optimizeSlider">
-                    <div class="optSliderLeft">
-                        <span>Cut the Fat:</span>
-                        <h3>
-                            Streamlined Code <br>
-                            for Faster Web Pages
-                        </h3>
-                        <p>
-                            Get the best practices for optimizing your website's code, ensuring that your CSS and HTML
-                            are lean and efficient for the best user experience.
-                        </p>
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="optimizeSlider">
+                                <div class="optSliderLeft">
+                                    <span>Cut the Fat:</span>
+                                    <h3>
+                                        Streamlined Code <br>
+                                        for Faster Web Pages
+                                    </h3>
+                                    <p>
+                                        Get the best practices for optimizing your website's code, ensuring that your
+                                        CSS and HTML
+                                        are lean and efficient for the best user experience.
+                                    </p>
+                                </div>
+                                <div class="optSliderRight">
+                                    <img src="assets/images/opt-slider1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="optimizeSlider">
+                                <div class="optSliderLeft">
+                                    <span>Cut the Fat:</span>
+                                    <h3>
+                                        Streamlined Code <br>
+                                        for Faster Web Pages
+                                    </h3>
+                                    <p>
+                                        Get the best practices for optimizing your website's code, ensuring that your
+                                        CSS and HTML
+                                        are lean and efficient for the best user experience.
+                                    </p>
+                                </div>
+                                <div class="optSliderRight">
+                                    <img src="assets/images/opt-slider1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="optimizeSlider">
+                                <div class="optSliderLeft">
+                                    <span>Cut the Fat:</span>
+                                    <h3>
+                                        Streamlined Code <br>
+                                        for Faster Web Pages
+                                    </h3>
+                                    <p>
+                                        Get the best practices for optimizing your website's code, ensuring that your
+                                        CSS and HTML
+                                        are lean and efficient for the best user experience.
+                                    </p>
+                                </div>
+                                <div class="optSliderRight">
+                                    <img src="assets/images/opt-slider1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="optSliderRight">
-                        <img src="assets/images/opt-slider1.png" alt="">
+                    <div class="optSiderBtns">
+                        <div class="swiper-button-prev">
+                            <img src="assets/images/arrow-left.svg" alt="">
+                        </div>
+                        <div class="swiper-button-next">
+                            <img src="assets/images/arrow-left.svg" alt="">
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -586,6 +640,26 @@
                 el: ".swiper-pagination",
                 clickable: true,
             },
+        });
+
+
+    </script>
+
+    <script>
+        const optConHeadingItems = document.querySelectorAll(".optConHeading li")
+        var swiper = new Swiper(".mySwiper2", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+        swiper.on('slideChange', () => {
+            console.log('Current Index:', swiper.activeIndex);
+            optConHeadingItems.forEach(item => {
+                item.classList.remove("active")
+            })
+            optConHeadingItems[swiper.activeIndex].classList.add("active")
         });
     </script>
 </body>

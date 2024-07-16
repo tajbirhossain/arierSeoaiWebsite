@@ -105,6 +105,35 @@ header .container ul {
 header .container ul li {
     margin: 0 18px;
     color: #09090B;
+    position: relative;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+header .container ul li ul {
+    width: 250px;
+    padding: 20px 25px;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s;
+    border-radius: 8px;
+}
+
+header .container ul li:hover ul {
+    opacity: 1;
+    pointer-events: all;
+}
+
+header .container ul li ul li {
+    padding: 0;
+    margin: 15px 0;
 }
 
 
@@ -131,6 +160,9 @@ header .headerCta button {
     font-size: 16px;
     font-family: "Sharp Grotesk Medium 20 Regular";
     margin-left: 25px;
+}
+header .headerCta button a {
+    color: #FAFAFA;
 }
 
 .headerCta img {
@@ -1531,7 +1563,7 @@ footer .container {
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .overlay.active {
         pointer-events: all;
         opacity: 1;
@@ -1549,17 +1581,46 @@ footer .container {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 80px 40px;
+        padding: 60px 25px;
         z-index: 100;
         transition: .3s;
+        overflow-y: auto;
+        overflow-x: clip;
     }
     .mobileNav.active {
         left: 0;
     }
     .mobileNav li {
+        width: 100%;
         margin: 0;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
+        padding: 10px 0;
+        transition: .3s;
     }
+    .mobileNav li span {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .mobileNav li ul {
+        width: 100%;
+        background-color: #badeff69;
+        overflow-y: hidden;
+        max-height: 0;
+        padding: 0px 10px;
+        transition: .5s;
+    }
+
+    .mobileNav li.dropdownMenu.active ul {
+        max-height: 500px;
+        padding: 20px 10px;
+    }
+
+
+    .mobileNav li ul li {
+        padding: 0;
+        margin: 20px 0;
+    }
+
     header .headerCta button {
         margin-left: 15px;
     }

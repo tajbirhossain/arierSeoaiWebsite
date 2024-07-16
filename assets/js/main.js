@@ -4,6 +4,8 @@ const menuBtn = document.querySelector(".headerCta img")
 const overlay = document.querySelector(".overlay")
 const menuItem = document.querySelector(".mobileNav")
 
+const dropdownMenu = document.querySelectorAll(".dropdownMenu")
+
 
 
 
@@ -26,3 +28,29 @@ window.addEventListener("scroll", () => {
         header.classList.remove("active")
     }
 })
+
+
+
+
+
+
+
+dropdownMenu.forEach((item) => {
+    // const dropLabel = item.querySelector("span");
+    // const dropItem = item.querySelector("ul");
+
+    let isDropShow = false;
+
+    item.addEventListener("click", () => {
+        if (isDropShow) {
+            item.classList.remove('active');
+            isDropShow = false;
+        } else {
+            dropdownMenu.forEach((otherItem) => {
+                otherItem.classList.remove('active');
+            });
+            item.classList.add('active');
+            isDropShow = true;
+        }
+    });
+});

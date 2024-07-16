@@ -1864,6 +1864,14 @@ footer .container {
     .personRevProText h4 {
         font-size: 14px;
     }
+
+
+
+
+    .footerTopItem {
+        width: 100%;
+        margin-right: 0;
+    }
 }
 
 
@@ -1902,11 +1910,5 @@ footer .container {
         width: 100%;
     }
 
-
-
-    .footerTopItem {
-        width: 100%;
-        margin-right: 0;
-    }
 }
 /* responsive ends */

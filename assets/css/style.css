@@ -534,6 +534,12 @@ header .headerCta button a {
     padding: 42px 0;
     margin-bottom: 20px;
     text-align: center;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.singleYourTool:hover {
+    background-color: #d6d6d6;
 }
 
 .singleYourTool h3 {

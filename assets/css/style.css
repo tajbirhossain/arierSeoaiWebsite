@@ -196,7 +196,7 @@ header .headerCta button a {
 }
 
 
-.banner h3 {
+.banner h4 {
     font-size: 16px;
     display: inline-block;
     padding: 13px 20px;
@@ -289,6 +289,10 @@ header .headerCta button a {
 
 .bannerFloat4 {
     bottom: -45px;
+    right: 0;
+}
+.bannerFloat5 {
+    top: 80px;
     right: 0;
 }
 
@@ -1244,7 +1248,7 @@ footer .container {
     }
 
 
-    .banner h3 {
+    .banner h4 {
         font-size: 14px;
     }
     .banner h1 {
@@ -1729,6 +1733,9 @@ footer .container {
     .bannerFloat3 {
         width: 48px;
         top: 50px;
+    }
+    .bannerFloat5 {
+        width: 65px;
     }
 
 

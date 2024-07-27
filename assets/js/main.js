@@ -20,13 +20,18 @@ overlay.addEventListener("click", () => {
 
 
 
-window.addEventListener("scroll", () => {
+
+const headerEffectFunc = () => {
     const scrollY = window.scrollY;
     if (scrollY > 100) {
         header.classList.add("active")
     } else {
         header.classList.remove("active")
     }
+}
+window.addEventListener("load", headerEffectFunc)
+window.addEventListener("scroll", () => {
+    requestAnimationFrame(headerEffectFunc)
 })
 
 

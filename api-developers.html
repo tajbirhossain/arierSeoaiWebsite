@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/api-developers.css">
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <ul class="mobileNav">
+        <li>
+            <a href="/">SEOAI</a>
+        </li>
+        <li class="dropdownMenu">
+            <span>SEO tools</span>
+            <ul>
+                <li>
+                    <a href="/report-demo">Reports Web</a>
+                </li>
+                <li>
+                    <a href="/keywords-demo">Keyword Search</a>
+                </li>
+                <li>
+                    <a href="/currentserp-demo">Current SERP</a>
+                </li>
+                <li>
+                    <a href="/serps-demo">SERP Evolution</a>
+                </li>
+                <li>
+                    <a href="/backlinks-demo">Backlinks</a>
+                </li>
+                <li>
+                    <a href="/authority-demo">Authority www</a>
+                </li>
+                <li>
+                    <a href="/analytics">Analytics Web</a>
+                </li>
+            </ul>
+        </li>
+        <li class="dropdownMenu">
+            <span>AI Utilities</span>
+            <ul>
+                <li>
+                    <a href="/chat-demo">Chat AI</a>
+                </li>
+                <li>
+                    <a href="/superwriter-demo">Super Writer</a>
+                </li>
+                <li>
+                    <a href="/fastwriter-demo">Fast Writer</a>
+                </li>
+                <li>
+                    <a href="/images-demo">AI Images</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="/pricing">Pricing</a>
+        </li>
+        <li>
+            <a href="/news-ai">Blog</a>
+        </li>
+        <li>
+            <a href="/tutorials">Tutorials</a>
+        </li>
+        <li class="dropdownMenu">
+            <span>Glosary</span>
+            <ul>
+                <li>
+                    <a href="/glossary/seo">SEO</a>
+                </li>
+                <li>
+                    <a href="/glossary/ai">Artificial Intelligence</a>
+                </li>
+                <li>
+                    <a href="/glossary/marketing">Marketing</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <header>
+        <div class="container">
+            <img src="assets/images/logo.svg" alt="">
+            <ul>
+                <li>
+                    <a href="/">SEOAI</a>
+                </li>
+                <li>
+                    SEO tools
+                    <ul>
+                        <li>
+                            <a href="/report-demo">Reports Web</a>
+                        </li>
+                        <li>
+                            <a href="/keywords-demo">Keyword Search</a>
+                        </li>
+                        <li>
+                            <a href="/currentserp-demo">Current SERP</a>
+                        </li>
+                        <li>
+                            <a href="/serps-demo">SERP Evolution</a>
+                        </li>
+                        <li>
+                            <a href="/backlinks-demo">Backlinks</a>
+                        </li>
+                        <li>
+                            <a href="/authority-demo">Authority www</a>
+                        </li>
+                        <li>
+                            <a href="/analytics">Analytics Web</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    AI Utilities
+                    <ul>
+                        <li>
+                            <a href="/chat-demo">Chat AI</a>
+                        </li>
+                        <li>
+                            <a href="/superwriter-demo">Super Writer</a>
+                        </li>
+                        <li>
+                            <a href="/fastwriter-demo">Fast Writer</a>
+                        </li>
+                        <li>
+                            <a href="/images-demo">AI Images</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/pricing">Pricing</a>
+                </li>
+                <li>
+                    <a href="/news-ai">Blog</a>
+                </li>
+                <li>
+                    <a href="/tutorials">Tutorials</a>
+                </li>
+                <li>
+                    Glosary
+                    <ul>
+                        <li>
+                            <a href="/glossary/seo">SEO</a>
+                        </li>
+                        <li>
+                            <a href="/glossary/ai">Artificial Intelligence</a>
+                        </li>
+                        <li>
+                            <a href="/glossary/marketing">Marketing</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="headerCta">
+                <a href="/login">Login</a>
+                <button><a href="/register">Register</a></button>
+                <img src="assets/images/menu.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="banner apiDevBanner">
+        <button class="backBtn">
+            <img src="assets/images/Arrow-Left-orange.svg" alt="">
+        </button>
+        <div class="container">
+            <h1>API Developers Projects</h1>
+
+            <div class="apiDevContent">
+                <div class="apiDevSingleCon">
+                    <h3>Notes</h3>
+                    <div class="apiDevConItem">
+                        <p>
+                            The API key should be sent as a Bearer token in the Authorization header of the request. <a
+                                href="#"> Get your API key.</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="apiDevSingleCon">
+                    <h3>List</h3>
+                    <div class="apiDevConItem">
+                        <div class="apiDevConItemInner">
+                            <h5>API endpoint:</h5>
+                            <div class="apiDevCodeWrap">
+                                <button>Edit</button>
+                                <p>
+                                    https://seoai.com/api/vi/projects/(projects)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="apiDevConItemInner apiDevConItemInnerLast">
+                            <h5>Request search</h5>
+                            <div class="apiDevCodeWrap">
+                                <p>
+                                    cur1 --location --request DELETE `https://seoai.com/api/projects/(project)` /
+                                    <br>
+                                    --header `Authorization: Bearer (api_key)`
+                                </p>
+                            </div>
+                        </div>
+                        <div class="apiDevConItemTable">
+                            <div class="apiDevConItemTabRow">
+                                <div class="apiDevConItemTabCell">
+                                    <p>Parameter </p>
+                                </div>
+                                <div class="apiDevConItemTabCell">
+                                    <p>Type </p>
+                                </div>
+                                <div class="apiDevConItemTabCell">
+                                    <p>Description </p>
+                                </div>
+                            </div>
+                            <div class="apiDevConItemTabRow">
+                                <div class="apiDevConItemTabCell">
+                                    <p>search </p>
+                                </div>
+                                <div class="apiDevConItemTabCell"></div>
+                                <div class="apiDevConItemTabCell">
+                                    <p>The search query </p>
+                                </div>
+                            </div>
+                            <div class="apiDevConItemTabRow">
+                                <div class="apiDevConItemTabCell">
+                                    <p>search_by </p>
+                                </div>
+                                <div class="apiDevConItemTabCell"></div>
+                                <div class="apiDevConItemTabCell">
+                                    <p>Search by. Possible values are: projects for Name . Defaults to: projects. </p>
+                                </div>
+                            </div>
+                            <div class="apiDevConItemTabRow">
+                                <div class="apiDevConItemTabCell">
+                                    <p>sort_by </p>
+                                </div>
+                                <div class="apiDevConItemTabCell"> </div>
+                                <div class="apiDevConItemTabCell">
+                                    <p>Sort by. Possible values are: created_at for Date created, project for Name.
+                                        Defaults to:created_at.</p>
+                                </div>
+                            </div>
+                            <div class="apiDevConItemTabRow">
+                                <div class="apiDevConItemTabCell">
+                                    <p>sort </p>
+                                </div>
+                                <div class="apiDevConItemTabCell"></div>
+                                <div class="apiDevConItemTabCell">
+                                    <p>Sort.Possible values are: desc for Descending, asc for Ascending. Defaults to:
+                                        desc. </p>
+                                </div>
+                            </div>
+                            <div class="apiDevConItemTabRow">
+                                <div class="apiDevConItemTabCell">
+                                    <p>per_page </p>
+                                </div>
+                                <div class="apiDevConItemTabCell"></div>
+                                <div class="apiDevConItemTabCell">
+                                    <p>Results per page. Passible values are: 10, 25, 50, 100. Defaults to: 25. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="apiDevSingleCon">
+                    <h3>Delete</h3>
+                    <div class="apiDevConItem">
+                        <div class="apiDevConItemInner">
+                            <h5>API endpoint:</h5>
+                            <div class="apiDevCodeWrap">
+                                <button>Delete</button>
+                                <p>
+                                    https://seoai.com/api/vi/projects/(projects)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="apiDevConItemInner apiDevConItemInnerLast">
+                            <h5>Request search</h5>
+                            <div class="apiDevCodeWrap">
+                                <p>cur1 --location --request DELETE `https://seoai.com/api/projects/(project)` /
+                                    <br>
+                                    --header `Authorization: Bearer (api_key)`
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img src="assets/images/orange-shape.svg" alt="" class="bannerFloat bannerFloat1">
+        <img src="assets/images/purple-random-shape.svg" alt="" class="bannerFloat bannerFloat4">
+        <img src="assets/images/sky-blue-shape.svg" alt="" class="bannerFloat bannerFloat5">
+    </section>
+
+    <footer>
+        <img src="assets/images/footer-bg.svg" alt="" class="footerBg">
+        <div class="container">
+            <div class="footerTop">
+                <div class="footerTopItem">
+                    <img src="assets/images/logo.svg" alt="" class="footerLogo">
+                    <p>
+                        This SEO is most reputed firm which provides various online marketing
+                    </p>
+                </div>
+                <div class="footerTopItem">
+                    <h3>Information</h3>
+                    <ul>
+                        <li>
+                            <a href="/">Seo AI</a>
+                        </li>
+                        <li>
+                            <a href="/pricing">Plan & Pricing</a>
+                        </li>
+                        <li>
+                            <a href="/pages/politica-de-privacidad">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="/pages/aviso-legal">Legal</a>
+                        </li>
+                        <li>
+                            <a href="/contact">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="/developers">Developers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footerTopItem">
+                    <h3>SEO Tools</h3>
+                    <ul>
+                        <li>
+                            <a href="/report-demo">Report Web</a>
+                        </li>
+                        <li>
+                            <a href="/keywords-demo">Keyword Search</a>
+                        </li>
+                        <li>
+                            <a href="/currentserp-demo">Current SERP</a>
+                        </li>
+                        <li>
+                            <a href="/serps-demo">SERPS Evolution</a>
+                        </li>
+                        <li>
+                            <a href="/backlinks-demo">Backlinks</a>
+                        </li>
+                        <li>
+                            <a href="/authority-demo">Authority www</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footerTopItem">
+                    <h3>AI Utilities</h3>
+                    <ul>
+                        <li>
+                            <a href="/chat-demo">Chat AI</a>
+                        </li>
+                        <li>
+                            <a href="/superwriter-demo">Super Writer</a>
+                        </li>
+                        <li>
+                            <a href="/fastwriter-demo">Fast Writer</a>
+                        </li>
+                        <li>
+                            <a href="/images-demo">AI Images</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footerTopItem">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>
+                            <img src="assets/images/phone-orange.svg" alt="">
+                            <span>(0034) 951-100-100</span>
+                        </li>
+                        <li>
+                            <img src="assets/images/mail-orange.svg" alt="">
+                            <span>info@seoai.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footerBottom">
+                <p>2024 All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

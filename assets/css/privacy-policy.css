@@ -1,0 +1,97 @@
+.privacyHeading {
+    margin-bottom: 52px;
+}
+.privacyHeading h5 {
+    color: #FF7919;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.privacyHeading h1 {
+    font-size: 48px;
+    font-family: "Sharp Grotesk Medium 20 Regular";
+}
+
+
+
+
+.privacyContent {
+    width: 100%;
+    max-width: 868px;
+    margin: 0 auto;
+    text-align: start;
+}
+
+
+.privacySingleCon {
+    margin-bottom: 28px;
+}
+.privacySingleCon h3 {
+    font-size: 30px;
+    color: #095B8C;
+    margin-bottom: 16px;
+}
+
+.privacySingleCon h5 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #09090B;
+    margin-bottom: 12px;
+}
+.privacySingleCon p {
+    font-size: 18px;
+    color: #09090B;
+    margin-bottom: 12px;
+}
+
+.privacySingleCon ul {
+    font-size: 18px;
+    color: #09090B;
+    padding-left: 25px;
+}
+
+.privacySingleCon ul li {
+    margin-bottom: 12px;
+    list-style: initial;
+}
+
+
+
+
+
+
+
+
+
+
+.privacyFloat1 {
+    width: 122px;
+    top: 800px;
+    right: 7%;
+}
+
+.privacyFloat2 {
+    width: 119px;
+    rotate: 15deg;
+    left: -23px;
+    top: 1470px;
+}
+.privacyFloat3 {
+    right: 0;
+    top: 1515px;
+}
+.privacyFloat4 {
+    top: 2780px;
+    left: 0;
+}
+
+
+.privacyFloat5 {
+    top: 70%;
+    right: 0;
+}
+.privacyFloat6 {
+    top: 110px;
+    right: 12%;
+    scale: .67;
+}

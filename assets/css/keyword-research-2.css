@@ -1,0 +1,67 @@
+.keyRes2Banner {
+    padding-bottom: 110px;
+}
+
+.keyRes2Banner h1 {
+    margin-bottom: 38px;
+}
+.keyRes2Banner h3 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.keyRes2Banner p {
+    max-width: 652px;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 47px;
+}
+
+.keyRes2Banner ul {
+    width: fit-content;
+    height: 72px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.keyRes2Banner ul li {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 32px;
+    color: #184463;
+    background-color: #fff;
+    border-radius: 12px;
+    transition: .3s;
+}
+
+.keyRes2Banner ul li.active {
+    background-color: #184463;
+    color: #fff;
+}
+
+
+
+.keyGuideHeading {
+    max-width: 959px;
+    margin: 0 auto;
+    margin-bottom: 57px;
+    text-align: center;
+}
+.keyGuideHeading h2 {
+    font-size: 56px;
+    font-family: "Sharp Grotesk Medium 20 Regular";
+    margin-bottom: 17px;
+    color: #184463;
+}
+
+.keyGuideHeading p {
+    font-size: 21px;
+}

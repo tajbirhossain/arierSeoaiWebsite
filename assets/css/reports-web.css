@@ -302,3 +302,124 @@
     display: block;
     margin: 0 auto;
 }
+
+
+
+
+
+
+
+
+
+@media (max-width: 1100px) {
+    .reportWebBanner p {
+        font-size: 16px;
+    }
+
+    .reportWebBanner button {
+        width: 340px;
+        height: 60px;
+        border-radius: 15px;
+        font-size: 24px;
+    }
+
+
+
+    .repWebSerTop h3, .repWebSerBottom h3 {
+        font-size: 16px;
+    }
+    .repWebSerTop p, .repWebSerBottom p {
+        font-size: 14px;
+    }
+
+
+
+
+    .repWebFactContent h2 {
+        font-size: 38px;
+    }
+
+
+    .repWebFactContent p {
+        font-size: 26px;
+    }
+
+
+
+    .repWebFaq .faqHeading h2 {
+        font-size: 50px;
+    }
+
+    .repWebFaq .faqHeading p {
+        font-size: 14px;
+    }
+
+
+    
+}
+
+
+
+
+
+
+@media (max-width: 700px) {
+    .reportWebBanner button {
+        width: 300px;
+        height: 55px;
+        font-size: 22px;
+    }
+    .repWebannerFloat6 {
+        width: 150px;
+        left: 2%;
+    }
+    .repWebSerTop {
+        flex-wrap: wrap;
+    }
+    .repWebSerTopLeft {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .repWebSerTopRight {
+        width: 100%;
+    }
+
+
+    .repWebSerBottom {
+        flex-wrap: wrap;
+    }
+
+    .repWebSerBottomLeft {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .repWebSerBottomLeftItem {
+        margin-bottom: 20px;
+    }
+
+    .repWebSerBottomRight {
+        width: 100%;
+    }
+
+
+
+    .repWebFactContent {
+        padding: 30px 40px;
+    }
+
+
+    .repWebFactContent p {
+        font-size: 22px;
+    }
+
+
+    .repWebFaq .faqHeading h2 {
+        font-size: 40px;
+    }
+
+
+
+    
+    
+}

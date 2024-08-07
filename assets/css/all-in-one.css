@@ -209,13 +209,17 @@
 
 
 .allInTemContent {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create 3 equal columns */
+    gap: 24px;
 }
 
 .allInTemSingleCon {
-    width: calc(100% / 4 - 18px);
+    width: 100%;
+    /* width: calc(100% / 4 - 18px); */
     margin-bottom: 24px;
     background-color: #fff;
     border-radius: 12px;
@@ -225,6 +229,7 @@
 .allInTemConHeading {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
@@ -236,10 +241,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 .allInTemConHeading h3 {
+    width: calc(100% - 56px);
     font-size: 22px;
     color: #184463;
 }
@@ -422,4 +428,215 @@
     position: absolute;
     top: 270px;
     left: 0;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1100px) {
+    .allInBannerHeading h1 {
+        margin-bottom: 20px;
+    }
+    .allInBannerHeading p span {
+        font-size: 26px;
+    }
+    .allInBannerHeading p {
+        font-size: 20px;
+    }
+
+
+
+    .allInBannerPostLeft h3 {
+        font-size: 35px;
+    }
+
+
+    .allInBannerPostLeft a {
+        font-size: 28px;
+    }
+    
+
+
+
+    .allInSerText h3 {
+        font-size: 42px;
+    }
+
+    .allInBannerPostLeft ol li {
+        font-size: 16px;
+    }
+
+    .allInSerText h4 {
+        font-size: 22px;
+    }
+
+
+
+    .allInSerText p {
+        font-size: 16px;
+    }
+
+
+    .allInTempHeading span {
+        font-size: 14px;
+    }
+    .allInTempHeading h2 {
+        font-size: 42px;
+    }
+
+
+    .allInTemConHeading h3 {
+        font-size: 18px;
+    }
+    .allInTemSingleCon p {
+        font-size: 16px;
+    }
+
+
+    .allInSystem h2 {
+        font-size: 38px;
+    }
+
+
+ 
+
+
+
+
+    .allInSysFormInp input {
+        font-size: 14px;
+    }
+    .allInSysFormInp input::placeholder {
+        font-size: 14px;
+    }
+    .allInSysFormSel select {
+        font-size: 14px;
+    }
+
+    .allInSysFormBottom textarea {
+        font-size: 14px;
+    }
+
+    .allInSysFormBottom textarea::placeholder {
+        font-size: 14px;
+    }
+
+
+    .allInSysFormBottom button {
+        width: 250px;
+        height: 45px;
+        border-radius: 12px;
+        font-size: 14px;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 850px) {
+    .allInSerText h3 {
+        font-size: 35px;
+    }
+    .allInSerText h4 {
+        font-size: 20px;
+    }
+
+
+    .allInTemContent {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
+
+@media (max-width: 700px) {
+    .allInBannerHeading p {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+
+
+
+    .allInBannerPost {
+        flex-direction: column-reverse;
+    }
+    .allInBannerPostLeft {
+        width: 100%;
+    }
+
+    .allInBannerPostRight {
+        width: 100%;
+        max-width: 250px;
+        margin-bottom: 25px;
+    }
+
+
+
+    .allInSingleService {
+        flex-direction: column-reverse;
+    }
+    .allInSingleServiceAlt {
+        flex-direction: column;
+    }
+    .allInSerText {
+        width: 100%;
+    }
+    .allInSerImg {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .allInBannerPostLeft h3 {
+        font-size: 30px;
+    }
+    .allInBannerPostLeft a {
+        font-size: 25px;
+    }
+
+    .allInTemContent {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}
+
+
+
+
+
+@media (max-width: 500px) {
+    .allInBannerPost {
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    .allInTemContent {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .allInSysFormTop {
+        flex-direction: column;
+    }
+    .allInSysFormInp {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .allInSysFormSel {
+        width: 100%;
+    }
 }

@@ -307,6 +307,7 @@
     border-radius: 18px;
     margin: 0 auto;
     margin-bottom: 20px;
+    font-size: 16px;
 }
 
 
@@ -386,3 +387,146 @@
 
 
 
+
+
+
+
+
+
+
+
+@media (max-width: 1100px) {
+    .pricingBanner p {
+        font-size: 14px;
+    }
+
+
+    .pricingBuyTop h3 {
+        font-size: 32px;
+    }
+    .pricingBuyTop span {
+        font-size: 18px;
+    }
+
+    .pricingSingleBuy h4 {
+        font-size: 20px;
+    }
+
+
+    .pricingSingleBuy ul li {
+        font-size: 18px;
+    }
+    .pricingSingleBuy ul li p {
+        font-size: 16px;
+    }
+
+
+
+    .pricingSingleBuy button {
+        height: 50px;
+        border-radius: 12px;
+        font-size: 16px;
+    }
+
+
+
+
+    .pricingBuyTabHeading span {
+        font-size: 22px;
+    }
+
+
+
+    .pricingBuyTable h3 {
+        font-size: 26px;
+    }
+
+    .pricingBuyTabRow span {
+        font-size: 16px;
+    }
+
+
+
+
+    .joinBrand h2 {
+        font-size: 28px;
+    }
+
+
+    .joinBrandWrap {
+        flex-wrap: wrap;
+    }
+    .joinSingleBrand {
+        width: 170px;
+        height: 70px;
+    }
+
+
+
+    .faqHeading h3 {
+        font-size: 14px;
+    }
+
+
+
+
+    .faqHeading h2 {
+        font-size: 50px;
+    }
+    .faqHeading p {
+        font-size: 14px;
+    }
+
+    .faqHeading p span {
+        font-size: 18px;
+    }
+
+
+    .accordionHeading p {
+        font-size: 17px;
+    }
+
+    .accordionDesc p {
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media (max-width: 700px) {
+    .pricingBuyWrap {
+        flex-wrap: wrap;
+    }
+    .pricingSingleBuy {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .pricingBuyTop h3 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+
+
+    
+    .pricingBuyTableWrap {
+        overflow-x: auto;
+        overflow-y: clip;
+    }
+    .pricingBuyTable {
+        width: 650px;
+    }
+
+
+
+    .faqHeading h2 {
+        font-size: 40px;
+    }
+
+    .accrodionItem {
+        padding: 32px 20px;
+    }
+    
+}

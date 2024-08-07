@@ -361,6 +361,13 @@
 
 
 
+@media (max-width: 950px) {
+    .reportWebBanner .bannerFloat4 {
+        bottom: -110px;
+    }
+}
+
+
 
 
 @media (max-width: 700px) {

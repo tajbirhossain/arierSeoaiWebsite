@@ -31,6 +31,11 @@
 
 .tutorialToolAna {
     margin-bottom: 115px;
+    position: relative;
+}
+.tutorialToolAna .container {
+    position: relative;
+    z-index: 1;
 }
 
 .tutToolAnaHeading, .toolAiHeading {
@@ -47,6 +52,14 @@
 
 .tutToolAnaHeading h2 span, .toolAiHeading h2 span {
     color: #FF7919;
+}
+
+
+
+.toolAnaFloat {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
 }
 
 

@@ -1,0 +1,173 @@
+.glossaryInBanner {
+    padding-bottom: 100px;
+}
+
+.backBtn {
+    outline: none;
+    background-color: transparent;
+    position: absolute;
+    top: 75px;
+    left: 80px;
+    z-index: 10;
+}
+
+
+
+
+
+
+.adaBoost {
+    margin-bottom: 63px;
+    position: relative;
+}
+.adaBoostFloat {
+    position: absolute;
+    right: 0;
+    top: 75%;
+}
+.adaBoost .container {
+    position: relative;
+}
+.adaBoostHeading {
+    position: relative;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.adaBoostHeading h3 {
+    font-size: 16px;
+    display: inline-block;
+    padding: 13px 20px;
+    background-color: #FF7919;
+    color: #FAFAFA;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+.adaBoostHeading h2 {
+    font-size: 66px;
+    color: #184463;
+    font-family: "Sharp Grotesk Medium 20 Regular";
+}
+
+
+.adaBoostContent h3 {
+    font-size: 36px;
+    color: #184463;
+    margin-bottom: 8px;
+}
+
+.adaBoostContent p {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+/* .glossaryContact .container {
+    max-width: 1086px;
+} */
+.glosConHeading {
+    max-width: 842px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 47px;
+}
+.glosConHeading h2 {
+    font-size: 36px;
+    color: #184463;
+    margin-bottom: 8px;
+}
+
+.glosConHeading p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.glosConWrap {
+    position: relative;
+}
+.glosConForm {
+    width: 100%;
+    max-width: 612px;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #DDDDDD;
+    position: relative;
+    z-index: 9;
+}
+
+
+.glosConForm form {
+    width: 100%;
+    max-width: unset;
+    height: fit-content;
+    border-radius: unset;
+    display: block;
+    background-color: unset;
+    padding: 0;
+    /* margin-bottom: 40px; */
+}
+
+.glosConForm form h3 {
+    font-size: 36px;
+    color: #184463;
+    margin-bottom: 42px;
+}
+
+.glosConForm form .loginInpItem {
+    margin-bottom: 20px;
+}
+.glosConForm form .loginInpItem label {
+    font-size: 18px;
+    color: #09090B;
+    display: block;
+    margin-bottom: 12px;
+}
+.glosConForm form .loginInpItem input {
+    width: 100%;
+    height: 64px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    border: 1.5px solid #DDDDDD;
+    background-color: #fff;
+}
+
+.glosConForm form button {
+    width: 100%;
+    height: 64px;
+    border-radius: 12px;
+    background-color: #184463;
+    color: #fff;
+    font-size: 22px;
+}
+
+.glosConForm form .loginInpItem textarea {
+    width: 100%;
+    height: 130px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    border: 1.5px solid #DDDDDD;
+    background-color: #fff;
+}
+
+.glosConWrap img {
+    position: absolute;
+    top: 50%;
+    right: 70px;
+    transform: translateY(-50%);
+}
